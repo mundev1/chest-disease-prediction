@@ -1,0 +1,29 @@
+[ 2026-09-19 12:41:10,663 ] tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+[ 2026-09-19 12:41:10,867 ] h5py._conv - DEBUG - Creating converter from 7 to 5
+[ 2026-09-19 12:41:10,867 ] h5py._conv - DEBUG - Creating converter from 5 to 7
+[ 2026-09-19 12:41:10,867 ] h5py._conv - DEBUG - Creating converter from 7 to 5
+[ 2026-09-19 12:41:10,867 ] h5py._conv - DEBUG - Creating converter from 5 to 7
+[ 2026-09-19 12:41:11,781 ] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.54:5001
+[ 2026-09-19 12:41:11,781 ] werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2026-09-19 12:41:14,515 ] werkzeug - INFO - 127.0.0.1 - - [19/Sep/2026 12:41:14] "GET / HTTP/1.1" 200 -
+[ 2026-09-19 12:41:18,277 ] werkzeug - INFO - 127.0.0.1 - - [19/Sep/2026 12:41:18] "POST /predict HTTP/1.1" 200 -
+[ 2026-09-19 12:41:23,792 ] werkzeug - INFO - 127.0.0.1 - - [19/Sep/2026 12:41:23] "POST /predict HTTP/1.1" 200 -
+[ 2026-09-19 12:41:24,242 ] werkzeug - INFO - 127.0.0.1 - - [19/Sep/2026 12:41:24] "POST /predict HTTP/1.1" 200 -
+[ 2026-09-19 12:41:24,542 ] werkzeug - INFO - 127.0.0.1 - - [19/Sep/2026 12:41:24] "POST /predict HTTP/1.1" 200 -
+[ 2026-09-19 12:41:24,809 ] werkzeug - INFO - 127.0.0.1 - - [19/Sep/2026 12:41:24] "POST /predict HTTP/1.1" 200 -
+[ 2026-09-19 12:41:25,059 ] werkzeug - INFO - 127.0.0.1 - - [19/Sep/2026 12:41:25] "POST /predict HTTP/1.1" 200 -
+[ 2026-09-19 12:41:25,274 ] werkzeug - INFO - 127.0.0.1 - - [19/Sep/2026 12:41:25] "POST /predict HTTP/1.1" 200 -
+[ 2026-09-19 12:41:25,475 ] werkzeug - INFO - 127.0.0.1 - - [19/Sep/2026 12:41:25] "POST /predict HTTP/1.1" 200 -
+[ 2026-09-19 12:41:25,661 ] werkzeug - INFO - 127.0.0.1 - - [19/Sep/2026 12:41:25] "POST /predict HTTP/1.1" 200 -
+[ 2026-09-19 12:41:25,844 ] werkzeug - INFO - 127.0.0.1 - - [19/Sep/2026 12:41:25] "POST /predict HTTP/1.1" 200 -
+[ 2026-09-19 12:41:26,028 ] werkzeug - INFO - 127.0.0.1 - - [19/Sep/2026 12:41:26] "POST /predict HTTP/1.1" 200 -
+[ 2026-09-19 12:41:26,210 ] werkzeug - INFO - 127.0.0.1 - - [19/Sep/2026 12:41:26] "POST /predict HTTP/1.1" 200 -
+[ 2026-09-19 12:41:26,377 ] werkzeug - INFO - 127.0.0.1 - - [19/Sep/2026 12:41:26] "POST /predict HTTP/1.1" 200 -
+[ 2026-09-19 12:41:26,527 ] werkzeug - INFO - 127.0.0.1 - - [19/Sep/2026 12:41:26] "POST /predict HTTP/1.1" 200 -
+[ 2026-09-19 12:41:26,727 ] werkzeug - INFO - 127.0.0.1 - - [19/Sep/2026 12:41:26] "POST /predict HTTP/1.1" 200 -
+[ 2026-09-19 12:41:27,577 ] werkzeug - INFO - 127.0.0.1 - - [19/Sep/2026 12:41:27] "POST /predict HTTP/1.1" 200 -
+[ 2026-09-19 12:41:27,810 ] werkzeug - INFO - 127.0.0.1 - - [19/Sep/2026 12:41:27] "POST /predict HTTP/1.1" 200 -
+[ 2026-09-19 12:41:28,076 ] werkzeug - INFO - 127.0.0.1 - - [19/Sep/2026 12:41:28] "POST /predict HTTP/1.1" 200 -

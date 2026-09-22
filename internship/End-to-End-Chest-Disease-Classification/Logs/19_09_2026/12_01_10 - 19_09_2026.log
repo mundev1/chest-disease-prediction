@@ -1,0 +1,23 @@
+[ 2026-09-19 12:01:12,293 ] tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+[ 2026-09-19 12:01:12,491 ] h5py._conv - DEBUG - Creating converter from 7 to 5
+[ 2026-09-19 12:01:12,492 ] h5py._conv - DEBUG - Creating converter from 5 to 7
+[ 2026-09-19 12:01:12,492 ] h5py._conv - DEBUG - Creating converter from 7 to 5
+[ 2026-09-19 12:01:12,492 ] h5py._conv - DEBUG - Creating converter from 5 to 7
+[ 2026-09-19 12:01:19,476 ] matplotlib - DEBUG - matplotlib data path: /Users/mundevanujtomar/Library/Python/3.9/lib/python/site-packages/matplotlib/mpl-data
+[ 2026-09-19 12:01:19,482 ] matplotlib - DEBUG - CONFIGDIR=/Users/mundevanujtomar/.matplotlib
+[ 2026-09-19 12:01:19,483 ] matplotlib - DEBUG - interactive is False
+[ 2026-09-19 12:01:19,483 ] matplotlib - DEBUG - platform is darwin
+[ 2026-09-19 12:01:19,521 ] matplotlib - DEBUG - CACHEDIR=/Users/mundevanujtomar/.matplotlib
+[ 2026-09-19 12:01:19,521 ] matplotlib.font_manager - DEBUG - font search path [PosixPath('/Users/mundevanujtomar/Library/Python/3.9/lib/python/site-packages/matplotlib/mpl-data/fonts/ttf'), PosixPath('/Users/mundevanujtomar/Library/Python/3.9/lib/python/site-packages/matplotlib/mpl-data/fonts/afm'), PosixPath('/Users/mundevanujtomar/Library/Python/3.9/lib/python/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts')]
+[ 2026-09-19 12:01:24,527 ] matplotlib.font_manager - WARNING - Matplotlib is building the font cache; this may take a moment.
+[ 2026-09-19 12:01:28,671 ] matplotlib.font_manager - INFO - Failed to extract font properties from /System/Library/Fonts/SFIndia.ttc: In FT2Font: Can not load face (SFNT font table missing; error code 0x8e)
+[ 2026-09-19 12:01:28,695 ] matplotlib.font_manager - INFO - Failed to extract font properties from /System/Library/Fonts/Supplemental/NISC18030.ttf: In FT2Font: Could not set the fontsize (invalid pixel size; error code 0x17)
+[ 2026-09-19 12:01:28,707 ] matplotlib.font_manager - INFO - Failed to extract font properties from /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc: In FT2Font: Can not load face (locations (loca) table missing; error code 0x90)
+[ 2026-09-19 12:01:28,732 ] matplotlib.font_manager - INFO - Failed to extract font properties from /System/Library/Fonts/LastResort.otf: tuple indices must be integers or slices, not str
+[ 2026-09-19 12:01:28,738 ] matplotlib.font_manager - INFO - Failed to extract font properties from /System/Library/Fonts/Apple Color Emoji.ttc: In FT2Font: Could not set the fontsize (invalid pixel size; error code 0x17)
+[ 2026-09-19 12:01:28,772 ] matplotlib.font_manager - INFO - generated new fontManager
+[ 2026-09-19 12:01:31,714 ] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.54:8080
+[ 2026-09-19 12:01:31,715 ] werkzeug - INFO - [33mPress CTRL+C to quit[0m

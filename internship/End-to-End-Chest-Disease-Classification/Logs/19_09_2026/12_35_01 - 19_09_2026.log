@@ -1,0 +1,52 @@
+[ 2026-09-19 12:35:03,196 ] tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+[ 2026-09-19 12:35:03,289 ] h5py._conv - DEBUG - Creating converter from 7 to 5
+[ 2026-09-19 12:35:03,289 ] h5py._conv - DEBUG - Creating converter from 5 to 7
+[ 2026-09-19 12:35:03,289 ] h5py._conv - DEBUG - Creating converter from 7 to 5
+[ 2026-09-19 12:35:03,289 ] h5py._conv - DEBUG - Creating converter from 5 to 7
+[ 2026-09-19 12:35:04,374 ] git.cmd - DEBUG - Popen(['git', 'version'], cwd=/Users/mundevanujtomar/Desktop/internship/End-to-End-Chest-Disease-Classification, stdin=None, shell=False, universal_newlines=False)
+[ 2026-09-19 12:35:04,388 ] git.cmd - DEBUG - Popen(['git', 'version'], cwd=/Users/mundevanujtomar/Desktop/internship/End-to-End-Chest-Disease-Classification, stdin=None, shell=False, universal_newlines=False)
+[ 2026-09-19 12:35:04,467 ] root - INFO - <----------------- Data Ingestion Initiated ----------------->
+[ 2026-09-19 12:35:04,468 ] root - INFO - Yaml file: Config/config.yaml loaded
+[ 2026-09-19 12:35:04,468 ] root - INFO - Yaml file: params.yaml loaded
+[ 2026-09-19 12:35:04,468 ] root - INFO - Directory created at: Artifacts
+[ 2026-09-19 12:35:04,468 ] root - INFO - Directory created at: Artifacts/Data_Ingestion
+[ 2026-09-19 12:35:04,468 ] root - INFO - Downloading data from https://drive.google.com/file/d/1qBIDYFx0aLa9MUqBEv0F3oyHIfFopt0j/view?usp=sharing into file Artifacts/Data_Ingestion/Data.zip
+[ 2026-09-19 12:35:05,491 ] urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): drive.google.com:443
+[ 2026-09-19 12:35:05,937 ] urllib3.connectionpool - DEBUG - https://drive.google.com:443 "GET /uc?/export=download&id=1qBIDYFx0aLa9MUqBEv0F3oyHIfFopt0j HTTP/1.1" 404 None
+[ 2026-09-19 12:35:05,941 ] root - ERROR - __init__() missing 1 required positional argument: 'error_detail'
+Traceback (most recent call last):
+  File "/Users/mundevanujtomar/Library/Python/3.9/lib/python/site-packages/gdown/download.py", line 273, in download
+    url = get_url_from_gdrive_confirmation(res.text)
+  File "/Users/mundevanujtomar/Library/Python/3.9/lib/python/site-packages/gdown/download.py", line 55, in get_url_from_gdrive_confirmation
+    raise FileURLRetrievalError(
+gdown.exceptions.FileURLRetrievalError: Cannot retrieve the public link of the file. You may need to change the permission to 'Anyone with the link', or have had many accesses. Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mundevanujtomar/Desktop/internship/End-to-End-Chest-Disease-Classification/Respire/Components/Data_Ingestion.py", line 23, in download_file
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "/Users/mundevanujtomar/Library/Python/3.9/lib/python/site-packages/gdown/download.py", line 284, in download
+    raise FileURLRetrievalError(message)
+gdown.exceptions.FileURLRetrievalError: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?/export=download&id=1qBIDYFx0aLa9MUqBEv0F3oyHIfFopt0j
+
+but Gdown can't. Please check connections and permissions.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mundevanujtomar/Desktop/internship/End-to-End-Chest-Disease-Classification/main.py", line 11, in <module>
+    obj.main()
+  File "/Users/mundevanujtomar/Desktop/internship/End-to-End-Chest-Disease-Classification/Respire/Pipeline/Training_Pipeline/Data_Ingestion.py", line 12, in main
+    data_ingestion.download_file()
+  File "/Users/mundevanujtomar/Desktop/internship/End-to-End-Chest-Disease-Classification/Respire/Components/Data_Ingestion.py", line 28, in download_file
+    raise CustomException(e)
+TypeError: __init__() missing 1 required positional argument: 'error_detail'

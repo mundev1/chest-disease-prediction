@@ -1,0 +1,11 @@
+[ 2026-09-19 12:03:56,630 ] tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+[ 2026-09-19 12:03:56,823 ] h5py._conv - DEBUG - Creating converter from 7 to 5
+[ 2026-09-19 12:03:56,823 ] h5py._conv - DEBUG - Creating converter from 5 to 7
+[ 2026-09-19 12:03:56,823 ] h5py._conv - DEBUG - Creating converter from 7 to 5
+[ 2026-09-19 12:03:56,823 ] h5py._conv - DEBUG - Creating converter from 5 to 7
+[ 2026-09-19 12:03:57,502 ] matplotlib - DEBUG - matplotlib data path: /Users/mundevanujtomar/Library/Python/3.9/lib/python/site-packages/matplotlib/mpl-data
+[ 2026-09-19 12:03:57,505 ] matplotlib - DEBUG - CONFIGDIR=/Users/mundevanujtomar/.matplotlib
+[ 2026-09-19 12:03:57,505 ] matplotlib - DEBUG - interactive is False
+[ 2026-09-19 12:03:57,505 ] matplotlib - DEBUG - platform is darwin
+[ 2026-09-19 12:03:57,534 ] matplotlib - DEBUG - CACHEDIR=/Users/mundevanujtomar/.matplotlib
+[ 2026-09-19 12:03:57,535 ] matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/mundevanujtomar/.matplotlib/fontlist-v390.json

@@ -1,0 +1,58 @@
+[ 2026-09-19 12:17:32,019 ] tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+[ 2026-09-19 12:17:32,150 ] h5py._conv - DEBUG - Creating converter from 7 to 5
+[ 2026-09-19 12:17:32,150 ] h5py._conv - DEBUG - Creating converter from 5 to 7
+[ 2026-09-19 12:17:32,150 ] h5py._conv - DEBUG - Creating converter from 7 to 5
+[ 2026-09-19 12:17:32,150 ] h5py._conv - DEBUG - Creating converter from 5 to 7
+[ 2026-09-19 12:17:32,621 ] matplotlib - DEBUG - matplotlib data path: /Users/mundevanujtomar/Library/Python/3.9/lib/python/site-packages/matplotlib/mpl-data
+[ 2026-09-19 12:17:32,623 ] matplotlib - DEBUG - CONFIGDIR=/Users/mundevanujtomar/.matplotlib
+[ 2026-09-19 12:17:32,624 ] matplotlib - DEBUG - interactive is False
+[ 2026-09-19 12:17:32,624 ] matplotlib - DEBUG - platform is darwin
+[ 2026-09-19 12:17:32,646 ] matplotlib - DEBUG - CACHEDIR=/Users/mundevanujtomar/.matplotlib
+[ 2026-09-19 12:17:32,647 ] matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/mundevanujtomar/.matplotlib/fontlist-v390.json
+[ 2026-09-19 12:17:32,844 ] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.54:5001
+[ 2026-09-19 12:17:32,844 ] werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2026-09-19 12:17:36,799 ] werkzeug - INFO - 127.0.0.1 - - [19/Sep/2026 12:17:36] "GET / HTTP/1.1" 200 -
+[ 2026-09-19 12:17:37,770 ] werkzeug - INFO - 127.0.0.1 - - [19/Sep/2026 12:17:37] "GET / HTTP/1.1" 200 -
+[ 2026-09-19 12:17:42,331 ] app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "/Users/mundevanujtomar/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/mundevanujtomar/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/mundevanujtomar/Library/Python/3.9/lib/python/site-packages/flask_cors/extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+  File "/Users/mundevanujtomar/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/mundevanujtomar/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/Users/mundevanujtomar/Library/Python/3.9/lib/python/site-packages/flask_cors/decorator.py", line 135, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "/Users/mundevanujtomar/Desktop/internship/End-to-End-Chest-Disease-Classification/app.py", line 46, in predictRoute
+    result = client.classifier.predict()
+  File "/Users/mundevanujtomar/Desktop/internship/End-to-End-Chest-Disease-Classification/Respire/Pipeline/Prediction_Pipeline.py", line 14, in predict
+    raise FileNotFoundError(
+FileNotFoundError: Model file not found at Artifacts/Model_Training/Trained_Model.h5. Train the model first or place the .h5 file in the expected location.
+[ 2026-09-19 12:17:42,353 ] werkzeug - INFO - 127.0.0.1 - - [19/Sep/2026 12:17:42] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2026-09-19 12:20:22,016 ] app - ERROR - Exception on /predict [POST]
+Traceback (most recent call last):
+  File "/Users/mundevanujtomar/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/mundevanujtomar/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/mundevanujtomar/Library/Python/3.9/lib/python/site-packages/flask_cors/extension.py", line 206, in wrapped_function
+    return cors_after_request(app_any.make_response(f(*args, **kwargs)))
+  File "/Users/mundevanujtomar/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/mundevanujtomar/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/Users/mundevanujtomar/Library/Python/3.9/lib/python/site-packages/flask_cors/decorator.py", line 135, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "/Users/mundevanujtomar/Desktop/internship/End-to-End-Chest-Disease-Classification/app.py", line 46, in predictRoute
+    decodeImage(image, client.filename)
+  File "/Users/mundevanujtomar/Desktop/internship/End-to-End-Chest-Disease-Classification/Respire/Pipeline/Prediction_Pipeline.py", line 14, in predict
+    raise FileNotFoundError(
+FileNotFoundError: Model file not found at Artifacts/Model_Training/Trained_Model.h5. Train the model first or place the .h5 file in the expected location.
+[ 2026-09-19 12:20:22,017 ] werkzeug - INFO - 127.0.0.1 - - [19/Sep/2026 12:20:22] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -

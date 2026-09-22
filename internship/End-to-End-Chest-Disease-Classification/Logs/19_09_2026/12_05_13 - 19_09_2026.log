@@ -1,0 +1,15 @@
+[ 2026-09-19 12:05:15,596 ] tensorflow - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+[ 2026-09-19 12:05:15,740 ] h5py._conv - DEBUG - Creating converter from 7 to 5
+[ 2026-09-19 12:05:15,740 ] h5py._conv - DEBUG - Creating converter from 5 to 7
+[ 2026-09-19 12:05:15,740 ] h5py._conv - DEBUG - Creating converter from 7 to 5
+[ 2026-09-19 12:05:15,740 ] h5py._conv - DEBUG - Creating converter from 5 to 7
+[ 2026-09-19 12:05:16,392 ] matplotlib - DEBUG - matplotlib data path: /Users/mundevanujtomar/Library/Python/3.9/lib/python/site-packages/matplotlib/mpl-data
+[ 2026-09-19 12:05:16,395 ] matplotlib - DEBUG - CONFIGDIR=/Users/mundevanujtomar/.matplotlib
+[ 2026-09-19 12:05:16,395 ] matplotlib - DEBUG - interactive is False
+[ 2026-09-19 12:05:16,395 ] matplotlib - DEBUG - platform is darwin
+[ 2026-09-19 12:05:16,421 ] matplotlib - DEBUG - CACHEDIR=/Users/mundevanujtomar/.matplotlib
+[ 2026-09-19 12:05:16,423 ] matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/mundevanujtomar/.matplotlib/fontlist-v390.json
+[ 2026-09-19 12:05:16,648 ] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5002
+[ 2026-09-19 12:05:16,648 ] werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2026-09-19 12:05:16,656 ] werkzeug - INFO - 127.0.0.1 - - [19/Sep/2026 12:05:16] "GET / HTTP/1.1" 200 -
